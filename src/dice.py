@@ -4,16 +4,11 @@ class Die():
     def __init__(self, state):
         self.state = state
 
-die_0 = Die(0)
-die_1 = Die(0)
-die_2 = Die(0)
-die_3 = Die(0)
-
 die_list = [
-    die_0,
-    die_1,
-    die_2,
-    die_3
+    Die(0),
+    Die(0),
+    Die(0),
+    Die(0)
 ]
 
 def roll(die):
