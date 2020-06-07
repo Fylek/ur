@@ -1,7 +1,7 @@
 import dice
 
 # Roll all dice, one by one
-dice.roll(dice.die_0)
+dice.roll(dice.die_list[0])
 print(dice.die_list[0].state)
 dice.roll(dice.die_list[1])
 print(dice.die_list[1].state)
