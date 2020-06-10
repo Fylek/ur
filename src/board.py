@@ -1,5 +1,3 @@
-import curses
-
 class Square:
     def __init__(self, blank=False, final_x=False, final_y=False, initial_x=False, intersection=False, centre_char=" "):
         self.occupied = False
@@ -64,3 +62,39 @@ class Square:
                     self.lines[2] = f"|   {self.centre_char}  |"
                 else:
                     self.lines[2] = f"|   {self.centre_char}   "
+
+"""
++-------+-------+-------+
+|       |       |       |
+|       |       |       |
+|       |       |       |
++-------+-------+-------+
+|       |       |       |
+|   *   |       |   *   |
+|       |       |       |
++-------+-------+-------+
+        |       |        
+        |       |        
+        |       |        
+        +-------+        
+        |       |        
+        |       |        
+        |       |        
++-------+-------+-------+
+|       |       |       |
+|       |   *   |       |
+|       |       |       |
++-------+-------+-------+
+|       |       |       |
+|       |       |       |
+|       |       |       |
++-------+-------+-------+
+|       |       |       |
+|       |       |       |
+|       |       |       |
++-------+-------+-------+
+|       |       |       |
+|   *   |       |   *   |
+|       |       |       |
++-------+-------+-------+
+"""
